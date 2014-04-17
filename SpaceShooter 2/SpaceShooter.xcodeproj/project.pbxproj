@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		6642928018EDBF07009116F8 /* outer.png in Resources */ = {isa = PBXBuildFile; fileRef = 6642927F18EDBF07009116F8 /* outer.png */; };
 		6642928218EDBF0B009116F8 /* inner.png in Resources */ = {isa = PBXBuildFile; fileRef = 6642928118EDBF0B009116F8 /* inner.png */; };
+		667487AF18FDCF45005CD297 /* Start.png in Resources */ = {isa = PBXBuildFile; fileRef = 667487AE18FDCF45005CD297 /* Start.png */; };
+		667487B118FE170C005CD297 /* Credits.png in Resources */ = {isa = PBXBuildFile; fileRef = 667487B018FE170C005CD297 /* Credits.png */; };
 		6693968518EDB3900085225A /* JoystickNode in Resources */ = {isa = PBXBuildFile; fileRef = 6693968418EDB3900085225A /* JoystickNode */; };
 		66A5B50F18EDBA58009E6DEC /* KAZ_JoystickNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A5B50E18EDBA58009E6DEC /* KAZ_JoystickNode.m */; };
 		9D9E1AC117E764E0007E9C7C /* star1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D9E1ABE17E764E0007E9C7C /* star1.png */; };
@@ -68,6 +70,8 @@
 /* Begin PBXFileReference section */
 		6642927F18EDBF07009116F8 /* outer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = outer.png; path = Resources/JoystickNode/outer.png; sourceTree = "<group>"; };
 		6642928118EDBF0B009116F8 /* inner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = inner.png; path = Resources/JoystickNode/inner.png; sourceTree = "<group>"; };
+		667487AE18FDCF45005CD297 /* Start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Start.png; sourceTree = "<group>"; };
+		667487B018FE170C005CD297 /* Credits.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Credits.png; sourceTree = "<group>"; };
 		6693968418EDB3900085225A /* JoystickNode */ = {isa = PBXFileReference; lastKnownFileType = folder; path = JoystickNode; sourceTree = "<group>"; };
 		6693968618EDB44D0085225A /* KAZ_JoystickNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KAZ_JoystickNode.h; path = Resources/JoystickNode/KAZ_JoystickNode.h; sourceTree = "<group>"; };
 		66A5B50E18EDBA58009E6DEC /* KAZ_JoystickNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KAZ_JoystickNode.m; path = Resources/JoystickNode/KAZ_JoystickNode.m; sourceTree = "<group>"; };
@@ -257,7 +261,9 @@
 				C3DEE31B17DDF6FC00226958 /* bg_front_spacedust.png */,
 				C3DEE31C17DDF6FC00226958 /* bg_galaxy.png */,
 				C3DEE31D17DDF6FC00226958 /* bg_planetsunrise.png */,
+				667487AE18FDCF45005CD297 /* Start.png */,
 				C3DEE31E17DDF6FC00226958 /* bg_spacialanomaly.png */,
+				667487B018FE170C005CD297 /* Credits.png */,
 				C3DEE31F17DDF6FC00226958 /* bg_spacialanomaly2.png */,
 			);
 			path = Backgrounds;
@@ -400,6 +406,7 @@
 				C3DEE33317DDF6FC00226958 /* bg_front_spacedust.png in Resources */,
 				C3DEE34317DDF6FC00226958 /* shake.caf in Resources */,
 				C3DEE33F17DDF6FC00226958 /* explosion_small.caf in Resources */,
+				667487AF18FDCF45005CD297 /* Start.png in Resources */,
 				C3DEE33517DDF6FC00226958 /* bg_planetsunrise.png in Resources */,
 				C3DEE34117DDF6FC00226958 /* laser_ship.caf in Resources */,
 				C3DEE34517DDF6FC00226958 /* SpaceShooter.atlas in Resources */,
@@ -408,6 +415,7 @@
 				C3DEE2FD17DDF66100226958 /* Images.xcassets in Resources */,
 				C3DEE2FB17DDF66100226958 /* Spaceship.png in Resources */,
 				EAA02EC217F87DAC002198A5 /* icon-small.png in Resources */,
+				667487B118FE170C005CD297 /* Credits.png in Resources */,
 				C3DEE34417DDF6FC00226958 /* SpaceGame.caf in Resources */,
 				C3DEE34017DDF6FC00226958 /* laser_enemy.caf in Resources */,
 				6642928018EDBF07009116F8 /* outer.png in Resources */,
