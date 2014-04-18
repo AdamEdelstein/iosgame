@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66346DE01900B0DF00413943 /* Hard_btn(test).png in Resources */ = {isa = PBXBuildFile; fileRef = 66346DDF1900B0DF00413943 /* Hard_btn(test).png */; };
+		66346DE21900B0EC00413943 /* Norm_btn(test).png in Resources */ = {isa = PBXBuildFile; fileRef = 66346DE11900B0EC00413943 /* Norm_btn(test).png */; };
 		6642928018EDBF07009116F8 /* outer.png in Resources */ = {isa = PBXBuildFile; fileRef = 6642927F18EDBF07009116F8 /* outer.png */; };
 		6642928218EDBF0B009116F8 /* inner.png in Resources */ = {isa = PBXBuildFile; fileRef = 6642928118EDBF0B009116F8 /* inner.png */; };
 		667487AF18FDCF45005CD297 /* Start.png in Resources */ = {isa = PBXBuildFile; fileRef = 667487AE18FDCF45005CD297 /* Start.png */; };
 		667487B118FE170C005CD297 /* Credits.png in Resources */ = {isa = PBXBuildFile; fileRef = 667487B018FE170C005CD297 /* Credits.png */; };
 		6693968518EDB3900085225A /* JoystickNode in Resources */ = {isa = PBXBuildFile; fileRef = 6693968418EDB3900085225A /* JoystickNode */; };
 		66A5B50F18EDBA58009E6DEC /* KAZ_JoystickNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A5B50E18EDBA58009E6DEC /* KAZ_JoystickNode.m */; };
+		66BF69841900AD6100774B7D /* Easy_btn(test).png in Resources */ = {isa = PBXBuildFile; fileRef = 66BF69831900AD6100774B7D /* Easy_btn(test).png */; };
 		9D9E1AC117E764E0007E9C7C /* star1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D9E1ABE17E764E0007E9C7C /* star1.png */; };
 		9D9E1AC217E764E0007E9C7C /* star2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D9E1ABF17E764E0007E9C7C /* star2.png */; };
 		9D9E1AC317E764E0007E9C7C /* star3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D9E1AC017E764E0007E9C7C /* star3.png */; };
@@ -68,6 +71,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		66346DDF1900B0DF00413943 /* Hard_btn(test).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hard_btn(test).png"; sourceTree = "<group>"; };
+		66346DE11900B0EC00413943 /* Norm_btn(test).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Norm_btn(test).png"; sourceTree = "<group>"; };
 		6642927F18EDBF07009116F8 /* outer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = outer.png; path = Resources/JoystickNode/outer.png; sourceTree = "<group>"; };
 		6642928118EDBF0B009116F8 /* inner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = inner.png; path = Resources/JoystickNode/inner.png; sourceTree = "<group>"; };
 		667487AE18FDCF45005CD297 /* Start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Start.png; sourceTree = "<group>"; };
@@ -75,6 +80,7 @@
 		6693968418EDB3900085225A /* JoystickNode */ = {isa = PBXFileReference; lastKnownFileType = folder; path = JoystickNode; sourceTree = "<group>"; };
 		6693968618EDB44D0085225A /* KAZ_JoystickNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KAZ_JoystickNode.h; path = Resources/JoystickNode/KAZ_JoystickNode.h; sourceTree = "<group>"; };
 		66A5B50E18EDBA58009E6DEC /* KAZ_JoystickNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KAZ_JoystickNode.m; path = Resources/JoystickNode/KAZ_JoystickNode.m; sourceTree = "<group>"; };
+		66BF69831900AD6100774B7D /* Easy_btn(test).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Easy_btn(test).png"; sourceTree = "<group>"; };
 		9D9E1ABE17E764E0007E9C7C /* star1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star1.png; sourceTree = "<group>"; };
 		9D9E1ABF17E764E0007E9C7C /* star2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star2.png; sourceTree = "<group>"; };
 		9D9E1AC017E764E0007E9C7C /* star3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star3.png; sourceTree = "<group>"; };
@@ -262,6 +268,9 @@
 				C3DEE31C17DDF6FC00226958 /* bg_galaxy.png */,
 				C3DEE31D17DDF6FC00226958 /* bg_planetsunrise.png */,
 				667487AE18FDCF45005CD297 /* Start.png */,
+				66BF69831900AD6100774B7D /* Easy_btn(test).png */,
+				66346DDF1900B0DF00413943 /* Hard_btn(test).png */,
+				66346DE11900B0EC00413943 /* Norm_btn(test).png */,
 				C3DEE31E17DDF6FC00226958 /* bg_spacialanomaly.png */,
 				667487B018FE170C005CD297 /* Credits.png */,
 				C3DEE31F17DDF6FC00226958 /* bg_spacialanomaly2.png */,
@@ -397,6 +406,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3DEE34217DDF6FC00226958 /* powerup.caf in Resources */,
+				66346DE21900B0EC00413943 /* Norm_btn(test).png in Resources */,
 				C3BD1B0717ED4E0A00A273A0 /* stars2.sks in Resources */,
 				C3DEE33417DDF6FC00226958 /* bg_galaxy.png in Resources */,
 				6693968518EDB3900085225A /* JoystickNode in Resources */,
@@ -405,6 +415,7 @@
 				6642928218EDBF0B009116F8 /* inner.png in Resources */,
 				C3DEE33317DDF6FC00226958 /* bg_front_spacedust.png in Resources */,
 				C3DEE34317DDF6FC00226958 /* shake.caf in Resources */,
+				66346DE01900B0DF00413943 /* Hard_btn(test).png in Resources */,
 				C3DEE33F17DDF6FC00226958 /* explosion_small.caf in Resources */,
 				667487AF18FDCF45005CD297 /* Start.png in Resources */,
 				C3DEE33517DDF6FC00226958 /* bg_planetsunrise.png in Resources */,
@@ -427,6 +438,7 @@
 				C3DEE33617DDF6FC00226958 /* bg_spacialanomaly.png in Resources */,
 				9D9E1AC317E764E0007E9C7C /* star3.png in Resources */,
 				C3DEE2F317DDF66100226958 /* Main.storyboard in Resources */,
+				66BF69841900AD6100774B7D /* Easy_btn(test).png in Resources */,
 				C3DEE33717DDF6FC00226958 /* bg_spacialanomaly2.png in Resources */,
 				EAA02EBF17F87DAC002198A5 /* icon-large@2x.png in Resources */,
 			);
