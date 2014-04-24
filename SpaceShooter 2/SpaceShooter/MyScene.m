@@ -189,7 +189,7 @@ typedef enum {
         [self addChild:_parallaxNodeBackgrounds];
 
         //Bring on the space dust
-        NSArray *parallaxBackground2Names = @[@"bg_front_spacedust.png",@"bg_front_spacedust.png"];
+        NSArray *parallaxBackground2Names = @[@"bg_front_spacedust(purple).png",@"bg_front_spacedust(purple).png"];
         _parallaxSpaceDust = [[FMMParallaxNode alloc] initWithBackgrounds:parallaxBackground2Names
                                                                     size:size
                                                     pointsPerSecondSpeed:25.0];
