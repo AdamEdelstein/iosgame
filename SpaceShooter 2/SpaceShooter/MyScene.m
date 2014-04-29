@@ -83,7 +83,7 @@ typedef enum {
             if (n != self && [n.name isEqual: @"restartLabel"]) {
                 [[self childNodeWithName:@"restartLabel"] removeFromParent];
                 [[self childNodeWithName:@"winLoseLabel"] removeFromParent];
-                [[self childNodeWithName:@"titleScreen"] removeFromParent];
+//                [[self childNodeWithName:@"titleScreen"] removeFromParent];
 
                 [self startTheGame];
                 return;
@@ -178,8 +178,10 @@ typedef enum {
         self.physicsBody = [SKPhysicsBody bodyWithEdgeLoopFromRect:self.frame];
 
 #pragma mark - Game Backgrounds
-        NSArray *parallaxBackgroundNames = @[@"bg_galaxy.png", @"bg_planetsunrise.png",
-                                             @"bg_spacialanomaly.png", @"bg_spacialanomaly2.png"];
+//        NSArray *parallaxBackgroundNames = @[@"bg_galaxy.png", @"bg_planetsunrise.png",
+//                                             @"bg_spacialanomaly.png", @"bg_spacialanomaly2.png", @"PLANET(1).png"];
+        NSArray *parallaxBackgroundNames = @[@"PLANET(1).png"];
+
         CGSize planetSizes = CGSizeMake(200.0, 200.0);
         _parallaxNodeBackgrounds = [[FMMParallaxNode alloc] initWithBackgrounds:parallaxBackgroundNames
                                                                               size:planetSizes
@@ -198,7 +200,7 @@ typedef enum {
             
 #pragma mark - Setup Sprite for the ship
         //Create space sprite, setup position on left edge centered on the screen, and add to Scene
-        _ship = [SKSpriteNode spriteNodeWithImageNamed:@"SpaceFlier_sm_1.png"];
+        _ship = [SKSpriteNode spriteNodeWithImageNamed:@"Spaceship1-2.png"];
         _ship.position = CGPointMake(self.frame.size.width * 0.1, CGRectGetMidY(self.frame));
         //move the ship using Sprite Kit's Physics Engine
         //Create a rectangular physics body the same size as the ship.
@@ -485,7 +487,7 @@ typedef enum {
     label.text = message;
     label.scale = 0.1;
     label.position = CGPointMake(self.frame.size.width/2, self.frame.size.height * 0.6);
-    label.fontColor = [SKColor yellowColor];
+    label.fontColor = [SKColor whiteColor];
     [self addChild:label];
     
     SKLabelNode *restartLabel;
@@ -494,17 +496,17 @@ typedef enum {
     restartLabel.text = @"Play Again?";
     restartLabel.scale = 0.5;
     restartLabel.position = CGPointMake(self.frame.size.width/2, self.frame.size.height * 0.4);
-    restartLabel.fontColor = [SKColor yellowColor];
+    restartLabel.fontColor = [SKColor whiteColor];
     [self addChild:restartLabel];
     
-    SKLabelNode *titleScreen;
-    titleScreen = [[SKLabelNode alloc] initWithFontNamed:@"Futura-CondensedMedium"];
-    titleScreen.name = @"titleScreen";
-    titleScreen.text = @"Return to Title";
-    titleScreen.scale = 0.5;
-    titleScreen.position = CGPointMake(self.frame.size.width/2, self.frame.size.height * 0.2);
-    titleScreen.fontColor = [SKColor yellowColor];
-    [self addChild:titleScreen];
+//    SKLabelNode *titleScreen;
+//    titleScreen = [[SKLabelNode alloc] initWithFontNamed:@"Futura-CondensedMedium"];
+//    titleScreen.name = @"titleScreen";
+//    titleScreen.text = @"Return to Title";
+//    titleScreen.scale = 0.5;
+//    titleScreen.position = CGPointMake(self.frame.size.width/2, self.frame.size.height * 0.2);
+//    titleScreen.fontColor = [SKColor yellowColor];
+//    [self addChild:titleScreen];
     
 
     
@@ -515,7 +517,7 @@ typedef enum {
     
     [restartLabel runAction:labelScaleAction];
     [label runAction:labelScaleAction];
-    [titleScreen runAction:labelScaleAction];
+//    [titleScreen runAction:labelScaleAction];
 
     
 }

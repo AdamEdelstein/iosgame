@@ -15,6 +15,8 @@
 		6642928218EDBF0B009116F8 /* inner.png in Resources */ = {isa = PBXBuildFile; fileRef = 6642928118EDBF0B009116F8 /* inner.png */; };
 		667487AF18FDCF45005CD297 /* Start.png in Resources */ = {isa = PBXBuildFile; fileRef = 667487AE18FDCF45005CD297 /* Start.png */; };
 		667487B118FE170C005CD297 /* Credits.png in Resources */ = {isa = PBXBuildFile; fileRef = 667487B018FE170C005CD297 /* Credits.png */; };
+		6691E97B19102814003B82C0 /* PLANET(1).png in Resources */ = {isa = PBXBuildFile; fileRef = 6691E97A19102814003B82C0 /* PLANET(1).png */; };
+		6691E97D191031D3003B82C0 /* Spaceship1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6691E97C191031D3003B82C0 /* Spaceship1.png */; };
 		6693968518EDB3900085225A /* JoystickNode in Resources */ = {isa = PBXBuildFile; fileRef = 6693968418EDB3900085225A /* JoystickNode */; };
 		66A5B50F18EDBA58009E6DEC /* KAZ_JoystickNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A5B50E18EDBA58009E6DEC /* KAZ_JoystickNode.m */; };
 		66BF69841900AD6100774B7D /* Easy_btn(test).png in Resources */ = {isa = PBXBuildFile; fileRef = 66BF69831900AD6100774B7D /* Easy_btn(test).png */; };
@@ -81,6 +83,8 @@
 		6642928118EDBF0B009116F8 /* inner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = inner.png; path = Resources/JoystickNode/inner.png; sourceTree = "<group>"; };
 		667487AE18FDCF45005CD297 /* Start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Start.png; sourceTree = "<group>"; };
 		667487B018FE170C005CD297 /* Credits.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Credits.png; sourceTree = "<group>"; };
+		6691E97A19102814003B82C0 /* PLANET(1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PLANET(1).png"; sourceTree = "<group>"; };
+		6691E97C191031D3003B82C0 /* Spaceship1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship1.png; sourceTree = "<group>"; };
 		6693968418EDB3900085225A /* JoystickNode */ = {isa = PBXFileReference; lastKnownFileType = folder; path = JoystickNode; sourceTree = "<group>"; };
 		6693968618EDB44D0085225A /* KAZ_JoystickNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KAZ_JoystickNode.h; path = Resources/JoystickNode/KAZ_JoystickNode.h; sourceTree = "<group>"; };
 		66A5B50E18EDBA58009E6DEC /* KAZ_JoystickNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KAZ_JoystickNode.m; path = Resources/JoystickNode/KAZ_JoystickNode.m; sourceTree = "<group>"; };
@@ -268,11 +272,13 @@
 		C3DEE31A17DDF6FC00226958 /* Backgrounds */ = {
 			isa = PBXGroup;
 			children = (
+				6691E97C191031D3003B82C0 /* Spaceship1.png */,
 				C3DEE31B17DDF6FC00226958 /* bg_front_spacedust.png */,
 				C3DEE31C17DDF6FC00226958 /* bg_galaxy.png */,
 				C3DEE31D17DDF6FC00226958 /* bg_planetsunrise.png */,
 				667487AE18FDCF45005CD297 /* Start.png */,
 				66346DE519096AF900413943 /* bg_front_spacedust(purple).png */,
+				6691E97A19102814003B82C0 /* PLANET(1).png */,
 				66BF69831900AD6100774B7D /* Easy_btn(test).png */,
 				66346DDF1900B0DF00413943 /* Hard_btn(test).png */,
 				66346DE31901905F00413943 /* ether_dust.png */,
@@ -429,6 +435,7 @@
 				C3DEE34117DDF6FC00226958 /* laser_ship.caf in Resources */,
 				C3DEE34517DDF6FC00226958 /* SpaceShooter.atlas in Resources */,
 				9D9E1AC117E764E0007E9C7C /* star1.png in Resources */,
+				6691E97D191031D3003B82C0 /* Spaceship1.png in Resources */,
 				C3DEE33E17DDF6FC00226958 /* explosion_large.caf in Resources */,
 				C3DEE2FD17DDF66100226958 /* Images.xcassets in Resources */,
 				C3DEE2FB17DDF66100226958 /* Spaceship.png in Resources */,
@@ -448,6 +455,7 @@
 				C3DEE2F317DDF66100226958 /* Main.storyboard in Resources */,
 				66BF69841900AD6100774B7D /* Easy_btn(test).png in Resources */,
 				C3DEE33717DDF6FC00226958 /* bg_spacialanomaly2.png in Resources */,
+				6691E97B19102814003B82C0 /* PLANET(1).png in Resources */,
 				EAA02EBF17F87DAC002198A5 /* icon-large@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
