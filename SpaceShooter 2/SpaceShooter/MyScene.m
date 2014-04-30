@@ -29,7 +29,7 @@
 @end
 
 // Add to top of file
-#define kNumAsteroids   15
+#define kNumAsteroids   25
 #define kNumLasers      5
 
 
@@ -116,7 +116,7 @@ typedef enum {
             }
             
             //2 Set the initial position of the laser to where your ship is positioned.
-            shipLaser.position = CGPointMake(_ship.position.x+shipLaser.size.width/2, _ship.position.y+0);
+            shipLaser.position = CGPointMake(_ship.position.x+45+shipLaser.size.width/2, _ship.position.y-15);
             shipLaser.hidden = NO;
             [shipLaser removeAllActions];
             
@@ -200,7 +200,7 @@ typedef enum {
             
 #pragma mark - Setup Sprite for the ship
         //Create space sprite, setup position on left edge centered on the screen, and add to Scene
-        _ship = [SKSpriteNode spriteNodeWithImageNamed:@"Spaceship1-2.png"];
+        _ship = [SKSpriteNode spriteNodeWithImageNamed:@"Spaceship1_dirt.png"];
         _ship.position = CGPointMake(self.frame.size.width * 0.1, CGRectGetMidY(self.frame));
         //move the ship using Sprite Kit's Physics Engine
         //Create a rectangular physics body the same size as the ship.
@@ -308,11 +308,14 @@ typedef enum {
 
 
 #pragma mark - Start the Game
+
+// this code includes balancing variables such as number of lives and time limit
+
 - (void)startTheGame
 {
     _lives = 3;
     double curTime = CACurrentMediaTime();
-    _gameOverTime = curTime + 30.0;
+    _gameOverTime = curTime + 45.0;
     _nextAsteroidSpawn = 0;
     _gameOver = NO;
     
@@ -482,7 +485,7 @@ typedef enum {
     }
     
     SKLabelNode *label;
-    label = [[SKLabelNode alloc] initWithFontNamed:@"Futura-CondensedMedium"];
+    label = [[SKLabelNode alloc] initWithFontNamed:@"Georgia"];
     label.name = @"winLoseLabel";
     label.text = message;
     label.scale = 0.1;
@@ -491,7 +494,7 @@ typedef enum {
     [self addChild:label];
     
     SKLabelNode *restartLabel;
-    restartLabel = [[SKLabelNode alloc] initWithFontNamed:@"Futura-CondensedMedium"];
+    restartLabel = [[SKLabelNode alloc] initWithFontNamed:@"Georgia"];
     restartLabel.name = @"restartLabel";
     restartLabel.text = @"Play Again?";
     restartLabel.scale = 0.5;

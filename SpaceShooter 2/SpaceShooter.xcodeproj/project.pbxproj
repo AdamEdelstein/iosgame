@@ -22,6 +22,9 @@
 		66AF2E8C19106EE50085BAC2 /* sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 66AF2E8B19106EE50085BAC2 /* sun.png */; };
 		66AF2E8E1910708F0085BAC2 /* sun_alphad.png in Resources */ = {isa = PBXBuildFile; fileRef = 66AF2E8D1910708F0085BAC2 /* sun_alphad.png */; };
 		66AF2E9019107AE80085BAC2 /* bg_front_spacedust(g&p).png in Resources */ = {isa = PBXBuildFile; fileRef = 66AF2E8F19107AE80085BAC2 /* bg_front_spacedust(g&p).png */; };
+		66AF2E941911C0910085BAC2 /* icon29.png in Resources */ = {isa = PBXBuildFile; fileRef = 66AF2E911911C0910085BAC2 /* icon29.png */; };
+		66AF2E951911C0910085BAC2 /* icon40.png in Resources */ = {isa = PBXBuildFile; fileRef = 66AF2E921911C0910085BAC2 /* icon40.png */; };
+		66AF2E961911C0910085BAC2 /* icon60.png in Resources */ = {isa = PBXBuildFile; fileRef = 66AF2E931911C0910085BAC2 /* icon60.png */; };
 		66BF69841900AD6100774B7D /* Easy_btn(test).png in Resources */ = {isa = PBXBuildFile; fileRef = 66BF69831900AD6100774B7D /* Easy_btn(test).png */; };
 		9D9E1AC117E764E0007E9C7C /* star1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D9E1ABE17E764E0007E9C7C /* star1.png */; };
 		9D9E1AC217E764E0007E9C7C /* star2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D9E1ABF17E764E0007E9C7C /* star2.png */; };
@@ -94,6 +97,9 @@
 		66AF2E8B19106EE50085BAC2 /* sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sun.png; sourceTree = "<group>"; };
 		66AF2E8D1910708F0085BAC2 /* sun_alphad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sun_alphad.png; sourceTree = "<group>"; };
 		66AF2E8F19107AE80085BAC2 /* bg_front_spacedust(g&p).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_front_spacedust(g&p).png"; sourceTree = "<group>"; };
+		66AF2E911911C0910085BAC2 /* icon29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon29.png; sourceTree = "<group>"; };
+		66AF2E921911C0910085BAC2 /* icon40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon40.png; sourceTree = "<group>"; };
+		66AF2E931911C0910085BAC2 /* icon60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon60.png; sourceTree = "<group>"; };
 		66BF69831900AD6100774B7D /* Easy_btn(test).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Easy_btn(test).png"; sourceTree = "<group>"; };
 		9D9E1ABE17E764E0007E9C7C /* star1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star1.png; sourceTree = "<group>"; };
 		9D9E1ABF17E764E0007E9C7C /* star2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star2.png; sourceTree = "<group>"; };
@@ -340,6 +346,9 @@
 			children = (
 				EAA02EBA17F87DAC002198A5 /* icon-large@2x.png */,
 				EAA02EBB17F87DAC002198A5 /* icon-medium.png */,
+				66AF2E911911C0910085BAC2 /* icon29.png */,
+				66AF2E921911C0910085BAC2 /* icon40.png */,
+				66AF2E931911C0910085BAC2 /* icon60.png */,
 				EAA02EBC17F87DAC002198A5 /* icon-medium@2x.png */,
 				EAA02EBD17F87DAC002198A5 /* icon-small.png */,
 				EAA02EBE17F87DAC002198A5 /* icon-small@2x.png */,
@@ -430,11 +439,13 @@
 				C3DEE34217DDF6FC00226958 /* powerup.caf in Resources */,
 				66346DE21900B0EC00413943 /* Norm_btn(test).png in Resources */,
 				C3BD1B0717ED4E0A00A273A0 /* stars2.sks in Resources */,
+				66AF2E951911C0910085BAC2 /* icon40.png in Resources */,
 				66AF2E8C19106EE50085BAC2 /* sun.png in Resources */,
 				C3DEE33417DDF6FC00226958 /* bg_galaxy.png in Resources */,
 				6693968518EDB3900085225A /* JoystickNode in Resources */,
 				C3DEE2EA17DDF66100226958 /* InfoPlist.strings in Resources */,
 				66AF2E8E1910708F0085BAC2 /* sun_alphad.png in Resources */,
+				66AF2E941911C0910085BAC2 /* icon29.png in Resources */,
 				EAA02EC017F87DAC002198A5 /* icon-medium.png in Resources */,
 				6642928218EDBF0B009116F8 /* inner.png in Resources */,
 				C3DEE33317DDF6FC00226958 /* bg_front_spacedust.png in Resources */,
@@ -466,6 +477,7 @@
 				9D9E1AC317E764E0007E9C7C /* star3.png in Resources */,
 				C3DEE2F317DDF66100226958 /* Main.storyboard in Resources */,
 				66BF69841900AD6100774B7D /* Easy_btn(test).png in Resources */,
+				66AF2E961911C0910085BAC2 /* icon60.png in Resources */,
 				C3DEE33717DDF6FC00226958 /* bg_spacialanomaly2.png in Resources */,
 				6691E97B19102814003B82C0 /* PLANET(1).png in Resources */,
 				EAA02EBF17F87DAC002198A5 /* icon-large@2x.png in Resources */,
