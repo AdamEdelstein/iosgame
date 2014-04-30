@@ -180,7 +180,7 @@ typedef enum {
 #pragma mark - Game Backgrounds
 //        NSArray *parallaxBackgroundNames = @[@"bg_galaxy.png", @"bg_planetsunrise.png",
 //                                             @"bg_spacialanomaly.png", @"bg_spacialanomaly2.png", @"PLANET(1).png"];
-        NSArray *parallaxBackgroundNames = @[@"PLANET(1).png"];
+        NSArray *parallaxBackgroundNames = @[@"PLANET(1).png", @"sun_alphad.png"];
 
         CGSize planetSizes = CGSizeMake(200.0, 200.0);
         _parallaxNodeBackgrounds = [[FMMParallaxNode alloc] initWithBackgrounds:parallaxBackgroundNames
@@ -191,7 +191,7 @@ typedef enum {
         [self addChild:_parallaxNodeBackgrounds];
 
         //Bring on the space dust
-        NSArray *parallaxBackground2Names = @[@"bg_front_spacedust(purple).png",@"bg_front_spacedust(purple).png"];
+        NSArray *parallaxBackground2Names = @[@"bg_front_spacedust(g&p).png",@"bg_front_spacedust(g&p).png"];
         _parallaxSpaceDust = [[FMMParallaxNode alloc] initWithBackgrounds:parallaxBackground2Names
                                                                     size:size
                                                     pointsPerSecondSpeed:25.0];
@@ -220,10 +220,10 @@ typedef enum {
 #pragma mark - Setup the asteroids
         _asteroids = [[NSMutableArray alloc] initWithCapacity:kNumAsteroids];
         for (int i = 0; i < kNumAsteroids; ++i) {
-            SKSpriteNode *asteroid = [SKSpriteNode spriteNodeWithImageNamed:@"asteroid"];
+            SKSpriteNode *asteroid = [SKSpriteNode spriteNodeWithImageNamed:@"bug"];
             asteroid.hidden = YES;
-            [asteroid setXScale:0.5];
-            [asteroid setYScale:0.5];
+            [asteroid setXScale:0.1];
+            [asteroid setYScale:0.1];
             [_asteroids addObject:asteroid];
             [self addChild:asteroid];
         }

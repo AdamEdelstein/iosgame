@@ -19,6 +19,9 @@
 		6691E97D191031D3003B82C0 /* Spaceship1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6691E97C191031D3003B82C0 /* Spaceship1.png */; };
 		6693968518EDB3900085225A /* JoystickNode in Resources */ = {isa = PBXBuildFile; fileRef = 6693968418EDB3900085225A /* JoystickNode */; };
 		66A5B50F18EDBA58009E6DEC /* KAZ_JoystickNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A5B50E18EDBA58009E6DEC /* KAZ_JoystickNode.m */; };
+		66AF2E8C19106EE50085BAC2 /* sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 66AF2E8B19106EE50085BAC2 /* sun.png */; };
+		66AF2E8E1910708F0085BAC2 /* sun_alphad.png in Resources */ = {isa = PBXBuildFile; fileRef = 66AF2E8D1910708F0085BAC2 /* sun_alphad.png */; };
+		66AF2E9019107AE80085BAC2 /* bg_front_spacedust(g&p).png in Resources */ = {isa = PBXBuildFile; fileRef = 66AF2E8F19107AE80085BAC2 /* bg_front_spacedust(g&p).png */; };
 		66BF69841900AD6100774B7D /* Easy_btn(test).png in Resources */ = {isa = PBXBuildFile; fileRef = 66BF69831900AD6100774B7D /* Easy_btn(test).png */; };
 		9D9E1AC117E764E0007E9C7C /* star1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D9E1ABE17E764E0007E9C7C /* star1.png */; };
 		9D9E1AC217E764E0007E9C7C /* star2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D9E1ABF17E764E0007E9C7C /* star2.png */; };
@@ -88,6 +91,9 @@
 		6693968418EDB3900085225A /* JoystickNode */ = {isa = PBXFileReference; lastKnownFileType = folder; path = JoystickNode; sourceTree = "<group>"; };
 		6693968618EDB44D0085225A /* KAZ_JoystickNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KAZ_JoystickNode.h; path = Resources/JoystickNode/KAZ_JoystickNode.h; sourceTree = "<group>"; };
 		66A5B50E18EDBA58009E6DEC /* KAZ_JoystickNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KAZ_JoystickNode.m; path = Resources/JoystickNode/KAZ_JoystickNode.m; sourceTree = "<group>"; };
+		66AF2E8B19106EE50085BAC2 /* sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sun.png; sourceTree = "<group>"; };
+		66AF2E8D1910708F0085BAC2 /* sun_alphad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sun_alphad.png; sourceTree = "<group>"; };
+		66AF2E8F19107AE80085BAC2 /* bg_front_spacedust(g&p).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_front_spacedust(g&p).png"; sourceTree = "<group>"; };
 		66BF69831900AD6100774B7D /* Easy_btn(test).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Easy_btn(test).png"; sourceTree = "<group>"; };
 		9D9E1ABE17E764E0007E9C7C /* star1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star1.png; sourceTree = "<group>"; };
 		9D9E1ABF17E764E0007E9C7C /* star2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star2.png; sourceTree = "<group>"; };
@@ -278,7 +284,10 @@
 				C3DEE31D17DDF6FC00226958 /* bg_planetsunrise.png */,
 				667487AE18FDCF45005CD297 /* Start.png */,
 				66346DE519096AF900413943 /* bg_front_spacedust(purple).png */,
+				66AF2E8D1910708F0085BAC2 /* sun_alphad.png */,
+				66AF2E8B19106EE50085BAC2 /* sun.png */,
 				6691E97A19102814003B82C0 /* PLANET(1).png */,
+				66AF2E8F19107AE80085BAC2 /* bg_front_spacedust(g&p).png */,
 				66BF69831900AD6100774B7D /* Easy_btn(test).png */,
 				66346DDF1900B0DF00413943 /* Hard_btn(test).png */,
 				66346DE31901905F00413943 /* ether_dust.png */,
@@ -421,9 +430,11 @@
 				C3DEE34217DDF6FC00226958 /* powerup.caf in Resources */,
 				66346DE21900B0EC00413943 /* Norm_btn(test).png in Resources */,
 				C3BD1B0717ED4E0A00A273A0 /* stars2.sks in Resources */,
+				66AF2E8C19106EE50085BAC2 /* sun.png in Resources */,
 				C3DEE33417DDF6FC00226958 /* bg_galaxy.png in Resources */,
 				6693968518EDB3900085225A /* JoystickNode in Resources */,
 				C3DEE2EA17DDF66100226958 /* InfoPlist.strings in Resources */,
+				66AF2E8E1910708F0085BAC2 /* sun_alphad.png in Resources */,
 				EAA02EC017F87DAC002198A5 /* icon-medium.png in Resources */,
 				6642928218EDBF0B009116F8 /* inner.png in Resources */,
 				C3DEE33317DDF6FC00226958 /* bg_front_spacedust.png in Resources */,
@@ -444,6 +455,7 @@
 				667487B118FE170C005CD297 /* Credits.png in Resources */,
 				C3DEE34417DDF6FC00226958 /* SpaceGame.caf in Resources */,
 				C3DEE34017DDF6FC00226958 /* laser_enemy.caf in Resources */,
+				66AF2E9019107AE80085BAC2 /* bg_front_spacedust(g&p).png in Resources */,
 				6642928018EDBF07009116F8 /* outer.png in Resources */,
 				C3BD1B0817ED4E0A00A273A0 /* stars3.sks in Resources */,
 				9D9E1AC217E764E0007E9C7C /* star2.png in Resources */,
