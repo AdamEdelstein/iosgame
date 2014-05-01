@@ -180,7 +180,7 @@ typedef enum {
 #pragma mark - Game Backgrounds
 //        NSArray *parallaxBackgroundNames = @[@"bg_galaxy.png", @"bg_planetsunrise.png",
 //                                             @"bg_spacialanomaly.png", @"bg_spacialanomaly2.png", @"PLANET(1).png"];
-        NSArray *parallaxBackgroundNames = @[@"PLANET(1).png", @"sun(large_alpha).png"];
+        NSArray *parallaxBackgroundNames = @[@"PLANET(1).png", @"sun(dead).png"];
 
         CGSize planetSizes = CGSizeMake(200.0, 200.0);
         _parallaxNodeBackgrounds = [[FMMParallaxNode alloc] initWithBackgrounds:parallaxBackgroundNames
