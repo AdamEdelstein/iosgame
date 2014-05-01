@@ -231,7 +231,7 @@ typedef enum {
 #pragma mark - Setup the lasers
         _shipLasers = [[NSMutableArray alloc] initWithCapacity:kNumLasers];
         for (int i = 0; i < kNumLasers; ++i) {
-            SKSpriteNode *shipLaser = [SKSpriteNode spriteNodeWithImageNamed:@"laserbeam_blue"];
+            SKSpriteNode *shipLaser = [SKSpriteNode spriteNodeWithImageNamed:@"laserbeam_green"];
             //SKSpriteNode *shipLaser = [SKSpriteNode spriteNodeWithTexture:laserTexture];
             shipLaser.hidden = YES;
             [_shipLasers addObject:shipLaser];
