@@ -10,7 +10,6 @@
 		66346DE01900B0DF00413943 /* Hard_btn(test).png in Resources */ = {isa = PBXBuildFile; fileRef = 66346DDF1900B0DF00413943 /* Hard_btn(test).png */; };
 		66346DE21900B0EC00413943 /* Norm_btn(test).png in Resources */ = {isa = PBXBuildFile; fileRef = 66346DE11900B0EC00413943 /* Norm_btn(test).png */; };
 		66346DE41901905F00413943 /* ether_dust.png in Resources */ = {isa = PBXBuildFile; fileRef = 66346DE31901905F00413943 /* ether_dust.png */; };
-		66346DE619096AF900413943 /* bg_front_spacedust(purple).png in Resources */ = {isa = PBXBuildFile; fileRef = 66346DE519096AF900413943 /* bg_front_spacedust(purple).png */; };
 		6642928018EDBF07009116F8 /* outer.png in Resources */ = {isa = PBXBuildFile; fileRef = 6642927F18EDBF07009116F8 /* outer.png */; };
 		6642928218EDBF0B009116F8 /* inner.png in Resources */ = {isa = PBXBuildFile; fileRef = 6642928118EDBF0B009116F8 /* inner.png */; };
 		667487AF18FDCF45005CD297 /* Start.png in Resources */ = {isa = PBXBuildFile; fileRef = 667487AE18FDCF45005CD297 /* Start.png */; };
@@ -87,7 +86,6 @@
 		66346DDF1900B0DF00413943 /* Hard_btn(test).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hard_btn(test).png"; sourceTree = "<group>"; };
 		66346DE11900B0EC00413943 /* Norm_btn(test).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Norm_btn(test).png"; sourceTree = "<group>"; };
 		66346DE31901905F00413943 /* ether_dust.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ether_dust.png; sourceTree = "<group>"; };
-		66346DE519096AF900413943 /* bg_front_spacedust(purple).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_front_spacedust(purple).png"; sourceTree = "<group>"; };
 		6642927F18EDBF07009116F8 /* outer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = outer.png; path = Resources/JoystickNode/outer.png; sourceTree = "<group>"; };
 		6642928118EDBF0B009116F8 /* inner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = inner.png; path = Resources/JoystickNode/inner.png; sourceTree = "<group>"; };
 		667487AE18FDCF45005CD297 /* Start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Start.png; sourceTree = "<group>"; };
@@ -294,7 +292,6 @@
 				C3DEE31C17DDF6FC00226958 /* bg_galaxy.png */,
 				C3DEE31D17DDF6FC00226958 /* bg_planetsunrise.png */,
 				667487AE18FDCF45005CD297 /* Start.png */,
-				66346DE519096AF900413943 /* bg_front_spacedust(purple).png */,
 				66AF2E8D1910708F0085BAC2 /* sun_alphad.png */,
 				66AF2EA31911CB2B0085BAC2 /* sun(large_alpha).png */,
 				66AF2E8B19106EE50085BAC2 /* sun.png */,
@@ -444,7 +441,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66346DE619096AF900413943 /* bg_front_spacedust(purple).png in Resources */,
 				66AF2EA61911E8590085BAC2 /* sun(dead).png in Resources */,
 				C3DEE34217DDF6FC00226958 /* powerup.caf in Resources */,
 				66346DE21900B0EC00413943 /* Norm_btn(test).png in Resources */,
